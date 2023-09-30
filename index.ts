@@ -29,3 +29,15 @@ class User{
         this.name = name;
     }
 }
+
+let 이름: string = 'hoon';
+let 나이: number = 20;
+let 출생지역: string = 'osan';
+
+let 자료담기: {제목: string, 가수: string} = {제목: 'twilight', 가수: 'i don\'t know'};
+
+let project: {member: string[], days: number, started: boolean} = {
+    member : ['kim', 'park'],
+    days: 30,
+    started: true
+}

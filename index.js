@@ -16,3 +16,12 @@ class User {
         this.name = name;
     }
 }
+let 이름 = 'hoon';
+let 나이 = 20;
+let 출생지역 = 'osan';
+let 자료담기 = { 제목: 'twilight', 가수: 'i don\'t know' };
+let project = {
+    member: ['kim', 'park'],
+    days: 30,
+    started: true
+};
