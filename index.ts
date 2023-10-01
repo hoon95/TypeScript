@@ -41,3 +41,29 @@ let project: {member: string[], days: number, started: boolean} = {
     days: 30,
     started: true
 }
+
+let 회원: number | string = 'kim';        // union type
+let 회원1: (number | string) = 123;
+
+let 회원들: (number | string)[] = [1,'2',3];        // 배열 안에 number 혹은 string 타입 허용
+let 회원들2: number | string[] = ['1','2','3'];     // number 타입 or 배열(string 타입) 허용
+let 오브젝트: {a: string} = {a: '123'}
+
+let 아무거나: any;      // 아무거나 허용(하지만 TypeScript 쓰는 이유가 사라짐)
+아무거나 = 123;
+아무거나 = true;
+아무거나 = undefined;
+
+let 언노운: unknown;        // unknown > any (안전함)
+언노운 = 123;
+언노운 = {};
+
+let 변수1: string = 이름;
+
+// TypeScript의 엄격한 타입 규칙
+// string 타입 : +1 가능
+// nunmber 타입 : +1 가능
+// string | number 타입 : +1 불가
+// unknown 타입 : +1 불가
+let 나이규칙: string|number;
+// 나이규칙 + 1;        // union type 불가
