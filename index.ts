@@ -84,3 +84,11 @@ let 학교: {score: (number | boolean)[],
 }
 학교.score[4] = false;
 학교.friend = ['Lee' , 학교.teacher]
+
+// 함수 void 타입 활용 : return 방지
+function 함수1(x?: number): void{       // parameter가 옵션인 경우 : 물음표(?) 지정
+    // return 1 + 1;
+}
+
+//  parameter에 물음표 지정 = union type(undefined 지정)과 동일
+// x?: number = x: number | undefined
