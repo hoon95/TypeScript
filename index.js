@@ -29,7 +29,7 @@ let 회원 = 'kim'; // union type
 let 회원1 = 123;
 let 회원들 = [1, '2', 3]; // 배열 안에 number 혹은 string 타입 허용
 let 회원들2 = ['1', '2', '3']; // number 타입 or 배열(string 타입) 허용
-let 오브젝트 = { a: '123' };
+var 오브젝트 = { data: '123' };
 let 아무거나; // 아무거나 허용(하지만 TypeScript 쓰는 이유가 사라짐)
 아무거나 = 123;
 아무거나 = true;
@@ -45,3 +45,14 @@ let 변수1 = 이름;
 // unknown 타입 : +1 불가
 let 나이규칙;
 // 나이규칙 + 1;        // union type 불가
+let user = 'kim';
+let age = undefined;
+let married = false;
+let 철수 = [user, age, married];
+let 학교 = {
+    score: [100, 97, 84],
+    teacher: 'Phil',
+    friend: 'John'
+};
+학교.score[4] = false;
+학교.friend = ['Lee', 학교.teacher];
