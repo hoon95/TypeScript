@@ -92,3 +92,24 @@ function 함수1(x?: number): void{       // parameter가 옵션인 경우 : 물
 
 //  parameter에 물음표 지정 = union type(undefined 지정)과 동일
 // x?: number = x: number | undefined
+
+// interface : 상호 간에 정의한 약속.규칙
+interface personAge{        // interface의 인자는 속성, 타입의 조건이 맞다면 갯수와 선언 순서는 상관 없다
+    age: number;
+}
+// function logAge(obj: {age: number}){
+function logAge(obj: personAge){
+    console.log(obj.age);
+}
+let person = {name: 'Capt', age: 28};
+logAge(person);
+
+// readonly : 읽기 전용 속성
+interface CraftBeer{
+    readonly brand: string;
+}
+
+let myBeer: CraftBeer = {
+    brand: 'Asahi'
+};
+// myBeer.brand = 'Hite'    // 읽기 전용으로 수정 불가

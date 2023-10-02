@@ -60,5 +60,13 @@ let 학교 = {
 function 함수1(x) {
     // return 1 + 1;
 }
-//  parameter에 물음표 지정 = union type(undefined 지정)과 동일
-// x?: number = x: number | undefined
+// function logAge(obj: {age: number}){
+function logAge(obj) {
+    console.log(obj.age);
+}
+let person = { name: 'Capt', age: 28 };
+logAge(person);
+let myBeer = {
+    brand: 'Asahi'
+};
+// myBeer.brand = 'Hite'    // 읽기 전용으로 수정 불가
