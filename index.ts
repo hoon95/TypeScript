@@ -113,3 +113,43 @@ let myBeer: CraftBeer = {
     brand: 'Asahi'
 };
 // myBeer.brand = 'Hite'    // 읽기 전용으로 수정 불가
+
+// Enum : 특정 값(상수)들의 집합
+enum Avengers {Cpt = 2, IronMan, Thor}
+// let hero: Avengers = Avengers.Cpt;
+
+// let hero: Avengers = Avengers[2];
+
+function neverEnd(): never{
+    while(true){
+
+    }
+}
+
+function sum(a: number, ...nums: number[]): number {
+    let totalOfNums = 0;
+    for (let key in nums) {
+      totalOfNums += nums[key];
+    }
+    return a + totalOfNums;
+  }
+
+  interface Vue {
+    el: string;
+    count: number;
+    init(this: Vue): () => {};
+  }
+  
+  let vm: Vue = {
+    el: '#app',
+    count: 10,
+    init: function(this: Vue) {
+      return () => {
+        return this.count;
+      }
+    }
+  }
+  
+  let getCount = vm.init();
+  let count = getCount();
+  console.log(count); // 10

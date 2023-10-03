@@ -70,3 +70,35 @@ let myBeer = {
     brand: 'Asahi'
 };
 // myBeer.brand = 'Hite'    // 읽기 전용으로 수정 불가
+// Enum : 특정 값(상수)들의 집합
+var Avengers;
+(function (Avengers) {
+    Avengers[Avengers["Cpt"] = 2] = "Cpt";
+    Avengers[Avengers["IronMan"] = 3] = "IronMan";
+    Avengers[Avengers["Thor"] = 4] = "Thor";
+})(Avengers || (Avengers = {}));
+// let hero: Avengers = Avengers.Cpt;
+// let hero: Avengers = Avengers[2];
+function neverEnd() {
+    while (true) {
+    }
+}
+function sum(a, ...nums) {
+    let totalOfNums = 0;
+    for (let key in nums) {
+        totalOfNums += nums[key];
+    }
+    return a + totalOfNums;
+}
+let vm = {
+    el: '#app',
+    count: 10,
+    init: function () {
+        return () => {
+            return this.count;
+        };
+    }
+};
+let getCount = vm.init();
+let count = getCount();
+console.log(count); // 10
