@@ -2,6 +2,7 @@
 
 - 강의: 타입스크립트로 블록체인 만들기 <br />
 - 기간: 2024.11.18 ~ 2024.11.29 <br />
+- 학습 내용은 노션에 정리, TypeScript Handbook을 통한 실습 예제 커밋
 <table>
   <caption>TS challenge schedule for 2 weeks</caption>
     <thead>
