@@ -28,7 +28,7 @@
       <tr>
         <td>Wed</td>
         <td>Lecture #3.0 ~ #3.1, Quiz</td>
-        <td> - </td>
+        <td>✅ 2024.11.20</td>
       </tr>
       <tr>
         <td>Thu</td>
