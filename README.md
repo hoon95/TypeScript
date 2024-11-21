@@ -33,7 +33,7 @@
       <tr>
         <td>Thu</td>
         <td>Lecture #3.2 ~ #3.4, Code Challenge</td>
-        <td> - </td>
+        <td>✅ 2024.11.21</td>
       </tr>
       <tr>
         <td>Fri, Sat</td>
