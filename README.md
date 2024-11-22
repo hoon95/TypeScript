@@ -38,7 +38,7 @@
       <tr>
         <td>Fri, Sat</td>
         <td>Lecture #4.0 ~ #4.1, Code Challenge (2days)</td>
-        <td> - </td>
+        <td>✅ 2024.11.22</td>
       </tr>
        <tr>
         <td rowspan="5">Second Weeks</td>
