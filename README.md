@@ -44,7 +44,7 @@
         <td rowspan="5">Second Weeks</td>
         <td>Mon</td>
         <td>Lecture #4.2 ~ #4.4, Quiz</td>
-        <td> - </td>
+        <td>✅ 2024.11.25</td>
       </tr>
       <tr>
         <td>Tue, Wed</td>
