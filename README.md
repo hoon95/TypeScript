@@ -55,7 +55,7 @@
       <tr>
         <td>Thu</td>
         <td>Lecture #5.0 ~ #5.4, Quiz</td>
-        <td> - </td>
+        <td>✅ 2024.11.28</td>
       </tr>
       <tr>
         <td>Fri, Sat, Sun</td>
