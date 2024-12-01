@@ -60,7 +60,7 @@
       <tr>
         <td>Fri, Sat, Sun</td>
         <td>Review, Final project (3days)</td>
-        <td> - </td>
+        <td>✅ 2024.12.01</td>
       </tr>
     </tbody>
 </table>
